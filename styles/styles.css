@@ -31,9 +31,9 @@ header nav ul a {
   font-size: 1rem;
   color: #0C0421;
   font-weight: 500;
+  transition: 0.3s font-weight;
 }
 header nav ul a:hover {
-  transform: scale(1.2);
   font-weight: 700;
 }
 header #home {
@@ -65,13 +65,10 @@ header #home .textos-home .btn-main {
   border-radius: 66px;
   background: #85A0FF;
   font-size: 1.3rem;
-  transition: 0s background-color;
+  transition: 0.3s background-color;
 }
 header #home .textos-home .btn-main:hover {
-  transition-delay: 1s;
-  transition-property: background-color;
-  background: #4E75FF;
-  color: #FFF;
+  background-color: #4E75FF;
 }
 header #home .img-home {
   max-width: 474px;
@@ -163,4 +160,28 @@ header #home .img-home img {
   border: solid 1px #4E75FF;
   border-radius: 65px;
   margin: 0 auto;
+  display: inline-flex;
+}
+#desconto .input-btn input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+  width: 513.5px;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+}
+#desconto .input-btn button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #FFF;
+  width: 276.5px;
+  background: #85A0FF;
+  border-radius: 0 65px 65px 0;
+  border: none;
+  transition: 0.3s background-color;
+}
+#desconto .input-btn button:hover {
+  background-color: #4E75FF;
+  color: #FFF;
 }/*# sourceMappingURL=styles.css.map */
